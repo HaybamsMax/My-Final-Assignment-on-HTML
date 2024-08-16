@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Form</title>
+    <!--The Header-->
+    <h1>Employee Registration Form</h1>
+</head>
+<body>
+    <!--Form-->
+    <form>
+    <!--Radio Button for gender-->
+    <input type="radio" id="mr" name="Gender" value="mr">
+    <label for="Mr">Mr</label>
+    <input type="radio" id="mrs" name="Gender" value="mrs">
+    <label for="Mrs">Mrs</label>
+    <input type="radio" id="miss" name="Gender" value="ms">
+    <label for="Ms">Miss.</label><br><br>
+    <!--Label for Name-->
+    <label for="fname">First Name&emsp;&emsp;&emsp;</label> <input type="text" id="fname" name="fname" placeholder="FirstName" size="30"><br><label for="Lname">Last Name&emsp;&emsp;&emsp;</label> <input type="text" id="Lname" name="Lname" placeholder="LastName" size="30"><br> 
+    <!--Label for Address--> <label for="Address1"> Mail Address 1&emsp;&nbsp;</label> <input type="text" id="Address1" name="Address1" size="30"><br><label for="Address2"> Mail Address 2 &emsp;</label> <input type="text" id="Address2" name="Address2" size="30"><br>
+    <!--Label for city-->
+    <label for="city"> City  &emsp; &emsp; &emsp; &emsp;&nbsp;&nbsp;</label> <input type="text" id="city" name="city" size="30"><br>
+    <!--Select for state-->
+    <label for="state">State&emsp; &emsp; &emsp; &emsp;&nbsp;&nbsp;</label><select name="state" id="state" ><option value="state">Bayelsa</option><option value="state">Adamawa</option> <option value="state">Bauchi<option value="state">Ekiti</option></option><option value="state">Enugu</option><option value="state">Delta</option><option value="state">Oyo</option><option value="state">Lagos</option><option value="state">Others</option></select><br>
+    <!--Label for Zip-->
+    <label for="Zip">Zip&emsp; &emsp; &emsp; &emsp;&emsp;&nbsp;</label><input type="text" id="Zip" name="zip"><br>
+    <!--Label for upload-->
+    <Label for="Upload Photo">Upload Photo &emsp; &nbsp;&nbsp;</Label><input type="submit" value="Browse">No file selected. <br>
+    <!--Label for mobile-->
+    <label for="mobile">Mobile &emsp; &emsp;&emsp;&nbsp; &nbsp;&nbsp;</label><input type="text" id="mobile" name="mobile" placeholder="0000 000 0000"><br>
+    <!--checkbox for languages known-->
+    <label for="Languages"> Languages Known</label><input type="checkbox" id="gujarati" name="gujarati">Gujarati<input type="checkbox" id="hindi" name="hindi">Hindi  <input type="checkbox" id="English" name="English">English <input type="checkbox" id="Marathi">Marathi <br><br>
+    <!--Label for text Area-->
+    <label for="Text area">Additional information</label><textarea name="text" id="add info" placeholder="optional" rows="7"></textarea><br><br>
+    <input type="submit" value="submit">&nbsp;<input type="submit" value="reset">
+
+
+
+</form>
+</body>
+</html>
